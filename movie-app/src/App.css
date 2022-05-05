@@ -6,5 +6,5 @@ body {
 .movie-app > .row {
 	overflow-x: auto;
 	flex-wrap: nowrap;
-	max-width: 500px;
+	max-width: 50%;
 }
