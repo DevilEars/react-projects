@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import MovieList from './components/MovieList';
 
 const App = () => {
-  const [movies, setMovies] = useState(
-    [
+	const [movies, setMovies] = useState([
       {
           "Title": "Star Trek",
           "Year": "2009",
@@ -40,12 +40,12 @@ const App = () => {
           "Type": "movie",
           "Poster": "https://m.media-amazon.com/images/M/MV5BZmU3ZGE3NzEtYTdmYi00YTYxLWIxYTItZGY5YjFlOTA2NWI3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg"
       },
-  ]);
+	]);
 
- return (
+	return (
 		<div className='container-fluid movie-app'>
 			<div className='row'>
-
+				<MovieList movies={movies} />
 			</div>
 		</div>
 	);
