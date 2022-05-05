@@ -2,7 +2,7 @@
 
  After the tutorial on [freecodecamp](freecodecamp.org/news/react-movie-app-tutorial/).
 
- ![Movie app screenshot](image  "Movie App")
+ ![Movie app screenshot](https://github.com/DevilEars/react-projects/blob/master/movie-app/img/movie-app.png)
 
  ## API Keys
  You need to register for an API key, as per the instructions on the Freecodecamp tutorial. Once you have an API key, placed it in the Constants file.
