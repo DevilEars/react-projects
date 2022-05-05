@@ -33,7 +33,7 @@ const App = () => {
         <MovieListHeading heading='Movies'  />
         <SearchBox 
           searchValue={searchValue} 
-          setSearchValue={searchValue} 
+          setSearchValue={setSearchValue} 
           />
       </div>
 			<div className='row'>
