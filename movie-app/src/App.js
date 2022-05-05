@@ -5,6 +5,7 @@ import { Constants } from './Constants';
 import MovieList from './components/MovieList';
 import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
+import AddFavourites from './components/AddFavourites';
 
 
 
@@ -36,8 +37,11 @@ const App = () => {
           setSearchValue={setSearchValue} 
           />
       </div>
-			<div className='row'>
-				<MovieList movies={movies} />
+      <div className='row'>
+				<MovieList 
+          movies={movies} 
+          favouriteComponent={AddFavourites} 
+          />
 			</div>
 		</div>
     </>
