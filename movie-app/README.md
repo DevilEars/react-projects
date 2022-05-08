@@ -1,6 +1,6 @@
 # Movie App
 
- After the tutorial on [freecodecamp](freecodecamp.org/news/react-movie-app-tutorial/).
+ After the tutorial on [freecodecamp](https://www.freecodecamp.org/news/react-movie-app-tutorial/).
 
  ![Movie app screenshot](https://github.com/DevilEars/react-projects/blob/master/movie-app/img/movie-app.png)
 
